@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>INDEX</title>
   </head>
   <body>
-  $END$
+  index page
+
+  <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>

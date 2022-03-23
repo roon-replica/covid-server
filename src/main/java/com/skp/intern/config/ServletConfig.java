@@ -15,7 +15,7 @@ public class ServletConfig implements WebMvcConfigurer {
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/");
+        resolver.setPrefix("/view/");
         resolver.setSuffix(".jsp");
 
         registry.viewResolver(resolver);
